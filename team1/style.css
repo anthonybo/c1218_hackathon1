@@ -1,0 +1,33 @@
+#dice1, #dice2, #dice3, #dice4, #dice5, #dice6 {
+    width: 50px;
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        transform: scale(1,1) translate(0px, 0px);
+    }
+    30%{
+        transform: scale(1,0.8) translate(0px, 10px);
+    }
+    75%{
+        transform: scale(1,1.1) translate(0px, -25px);
+    }
+    100% {
+        transform: scale(1,1) translate(0px, 0px);
+    }
+}
+
+.bounce {
+    text-align:center;
+    margin:0 auto;
+    /*margin-top:100px;*/
+    height:20px;
+    width:100px;
+    padding:20px;
+    background:tomato;
+    -webkit-animation: bounce 1.3s infinite;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+}
