@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+    <style>
+        #player_area{
+            height: 650px;
+            width: 220px;
+            border: 3px solid black;
+            align-content: center;
+            border-radius: 8px;
+        }
+        .cpList{
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        display: block;
+        cursor: pointer;
+        }
+        .modalDiv{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 500px;
+            width: 500px;
+            color: darkblue;
+            font-size: 25px;
+            font-weight: bold;
+            background-color: dimgrey;
+            text-align: center;
+            border-radius: 10px;
+            border: 3px solid black;
+            }
+
+        .hide{
+            display:none;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="game_board">
+        <button id="start_game">Start Game</button>
+        <div id="player_area"></div>
+    </div>
+
+    <div class="modalDiv">
+        <h1>Property List</h1>
+        <div id="propertyList" class="property_list"></div>
+    </div>
+
+</body>
+</html>
