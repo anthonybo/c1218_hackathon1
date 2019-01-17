@@ -211,7 +211,7 @@ body {
     height:20px;
     width:100px;
     padding:20px;
-    background:tomato;
+    /*background:tomato;*/
     -webkit-animation: bounce 1.3s infinite;
     cursor: pointer;
     font-weight: bold;
@@ -219,11 +219,28 @@ body {
     font-size: 15px;
 }
 
-.currentSquare {
+.ironManAm {
     border: 4px solid red;
     color: red;
     font-weight: bold;
-    
+}
+
+.capAm {
+    border: 4px solid blue;
+    color: red;
+    font-weight: bold;
+}
+
+.thorAm {
+    border: 4px solid Grey;
+    color: red;
+    font-weight: bold;
+}
+
+.hulkAm {
+    border: 4px solid green;
+    color: red;
+    font-weight: bold;
 }
 
 #player_area{
@@ -267,5 +284,5 @@ body {
 /*}*/
 
 .start {
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
