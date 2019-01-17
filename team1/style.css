@@ -1,11 +1,14 @@
 body {
     background-image: url("images/monopoly.jpg");
+    margin: 0;
+    /*font-size: 0;*/
 }
 
 .gameBoard {
     width: 85%;
     height: 100vh;
     position: relative;
+    display: inline-block;
 }
 .green {
     color: darkgreen;
@@ -58,7 +61,7 @@ body {
 .tax,
 .taxCity,
 .chanceComm,
-.chestComm,
+.chest1Comm,
 .train {
     font-family: bold;
     font-size: x-large;
@@ -221,4 +224,48 @@ body {
     color: red;
     font-weight: bold;
     
+}
+
+#player_area{
+    height: 650px;
+    width: 10%;
+    border: 3px solid black;
+    align-content: center;
+    border-radius: 8px;
+    position: fixed;
+    display: inline-block;
+}
+
+.modalDiv{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 500px;
+    color: darkblue;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: dimgrey;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.hide{
+    display:none;
+}
+
+/*.player_area {*/
+    /*!*position: absolute;*!*/
+    /*!*right: 2%;*!*/
+     /*width: 10%;*/
+    /*!*top: 15%;*!*/
+    /*display: inline-block;*/
+    /*border: 2px solid red;*/
+
+/*}*/
+
+.start {
+    margin-bottom: 20px;
 }
