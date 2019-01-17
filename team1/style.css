@@ -9,6 +9,7 @@ body {
     height: 100vh;
     position: relative;
     display: inline-block;
+
 }
 .green {
     color: darkgreen;
@@ -16,16 +17,68 @@ body {
     font-size: x-large;
 }
 
-.yellow {
-    color: yellow;
-    font-family: bold;
-    font-size: x-large;
+.yellow1 {
+    background: url("Deeds/BoardY_Atlantic.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.yellow2 {
+    background: url("Deeds/BoardY_Ventnor.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.yellow3 {
+    background: url("Deeds/BoardY_MarvinG.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-.red {
-    color: darkred;
-    font-family: bold;
-    font-size: x-large;
+.yellow1:hover {
+    background: url("Deeds/Yellow_Atlantic_ave.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.yellow2:hover {
+    background: url("Deeds/YELLOW_Ventor_ave.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.yellow3:hover{
+    background: url("Deeds/YELLOW_Marvingardens.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.red1 {
+    background: url("Deeds/BoardR_Kentucky.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.red2 {
+    background: url("Deeds/BoardR_Indiana.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.red3 {
+    background: url("Deeds/BoardR_Illinois.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.red1:hover{
+    background: url("Deeds/RED_Indiana_ave.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.red2:hover{
+    background: url("Deeds/RED_Indiana_ave.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.red3:hover{
+    background: url("Deeds/RED_illionis_ave.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .navy {
@@ -46,25 +99,120 @@ body {
     font-size: x-large;
 }
 
-.purple {
-    color: purple;
-    font-family: bold;
-    font-size: x-large;
+.purple1 {
+    background: url("Deeds/BoardPU_Mediterranean.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.purple2 {
+    background: url("Deeds/BoardPU_Baltic.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-.lightBlue {
-    color: dodgerblue;
-    font-family: bold;
-    font-size: x-large;
+.purple1:hover {
+    background: url("Deeds/PURPLE_Mediterranean_ave.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.purple2:hover {
+    background: url("Deeds/PURPLE_Baltic_ave.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.lightBlue1 {
+    background: url("Deeds/BoardLB_Oriental.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.lightBlue2 {
+    background: url("Deeds/BoardLB_Vermont.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.lightBlue3 {
+    background: url("Deeds/BoardLB_Connecticut.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-.tax,
-.taxCity,
-.chanceComm,
-.chest1Comm,
-.train {
-    font-family: bold;
-    font-size: x-large;
+.lightBlue1:hover{
+    background: url("Deeds/LBLUE_Oriental_ave.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.lightBlue2:hover{
+    background: url("Deeds/LBLUE_Vermont_ave.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.lightBlue3:hover {
+    background: url("Deeds/LBLUE_Connecticut.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.luxTax{
+    background: url("Deeds/SP_Luxury_tax.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.tax{
+    background: url("Deeds/SP_Income_tax.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.chanceComm{
+    background: url("Deeds/SP_Chance.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.chestComm{
+    background: url("Deeds/SP_Community_chest.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.train1 {
+    background: url("Deeds/BoardRR_BnO.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.train1:hover{
+    background: url("Deeds/RR_BnO_railroad.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.train2 {
+    background: url("Deeds/BoardRR_RR.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.train2:hover{
+    background: url("Deeds/RR_Reading_railroad.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.goJail{
+    background-image: url("Deeds/SP_Go_to_jail.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.freeParking{
+    background-image: url("Deeds/SP_Free_parking.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.go{
+    background-image: url("Deeds/SP_Go.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.jail{
+    background-image: url("Deeds/SP_Just_Visiting.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 

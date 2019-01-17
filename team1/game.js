@@ -156,7 +156,12 @@ function thorPropList (){
     $('#propertyList').empty();
     $('#propertyList').text(thorProperties);
 }
-
-// function endSelect(){
-
+//
+// function showDeed(boardpiece){
+//         //on mouse over, show deed related to board piece
+//         boardpiece.src = "MyPicture2.jpg";
+//     }
+//     function MouseOut(MyImage) {
+//         MyImage.src = "MyPicture1.jpg";
+//     }
 // }
