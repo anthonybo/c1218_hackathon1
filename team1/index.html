@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="dice.js" defer></script>
+    <script type="text/javascript" src="game.js" defer></script>
     <script type="text/javascript" src="movePlayer.js" defer></script>
 </head>
 
@@ -40,11 +41,14 @@
         <div class="pink">St. Charles Place</div>
     </div>
         <div class="middle">
-    <div id="dice">
-      <div id="diceImg"></div>
-        <button id="diceButton" class="bounce">Roll</button>
-        <span id="diceText"></span>
-    </div>
+            <div class="start">
+                <button id="start_game">Start Game</button>
+            </div>
+            <div id="dice">
+              <div id="diceImg"></div>
+                <button id="diceButton" class="bounce">Roll</button>
+                <span id="diceText"></span>
+            </div>
         </div>
 
     <div class ="rightColumn" class="rightCol">
@@ -76,10 +80,24 @@
     </div>
 
     </div>
+
+
+
+
+
+
+
+
+
+<div class="modalDiv">
+    <h1>Property List</h1>
+    <div id="propertyList" class="property_list"></div>
 </div>
 
 
 
+</div>
+<div id="player_area"></div>
 
 </body>
 </html>
