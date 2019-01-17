@@ -13,7 +13,11 @@ function movePlayer(dice) {
         players['player1'] = oldValue += moveValue;
         if(players['player1'] >= 40) {
             console.log('You have lapped the board');
-            players['player1'] = players['player1'] - 40;
+            players['player1'] = players['player1'] - 38;
+            if(players['player1'] <= 0) {
+                players['player1'] = 1;
+            }
+
         }
     } else {
         // console.log('No Player');
@@ -42,7 +46,7 @@ function movePlayer(dice) {
         $('.topCont div').removeClass('currentSquare');
         $('.rightColumn div').removeClass('currentSquare');
         $(`.topCont div:nth-child(${playerPosition-19} )`).addClass('currentSquare');
-    } else if( playerPosition > 29 && playerPosition <= 40 ){
+    } else if( playerPosition > 29 && playerPosition <= 38 ){
         $('.bottomCont div').removeClass('currentSquare');
         $('.leftColumn div').removeClass('currentSquare');
         $('.topCont div').removeClass('currentSquare');
