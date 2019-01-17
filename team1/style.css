@@ -133,12 +133,12 @@ body {
 }
 
 .leftColumn {
-    display: inline-flex;
+    /*display: inline-flex;*/
     flex-direction: column;
     background-color: #6a6969;
-    top: 15.5%;
-    height: 66%;
-    width: 17.5%;
+    top: 17.5%;
+    height: 28%;
+    width: 16.5%;
     position: relative;
     text-align: center;
 
@@ -179,10 +179,15 @@ body {
     position: relative;
     width: 15%;
     top: 50%;
-    left: 25%;
+    left: 44%;
     display: inline-block;
 
 }
+/*.community,*/
+/*!*.chance {*!*/
+    /*!*border: 1px dodgerblue;*!*/
+    /*!*background-color: #d42551;*!*/
+/*!*}*!*/
 
 
 #dice1, #dice2, #dice3, #dice4, #dice5, #dice6 {
@@ -206,7 +211,7 @@ body {
 
 .bounce {
     text-align:center;
-    margin:0 auto;
+    margin: 0;
     /*margin-top:100px;*/
     height:20px;
     width:100px;
@@ -228,8 +233,8 @@ body {
 
 #player_area{
     height: 650px;
-    width: 10%;
-    border: 3px solid black;
+    width: 15%;
+    border: 1px solid black;
     align-content: center;
     border-radius: 8px;
     position: fixed;
