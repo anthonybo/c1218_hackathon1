@@ -2,6 +2,7 @@ $(document).ready(initApp);
 
 function initApp() {
     clickHandler();
+    onLoad();
 }
 
 function clickHandler() {
@@ -24,4 +25,8 @@ function displayDice() {
     for (var diceValue of dice) {
         $('#diceImg').append($('<img>', {id: `dice${diceValue}`, src: `images/die${diceValue}.png`}));
     }
+}
+
+function onLoad() {
+    $('#dice').hide();
 }
