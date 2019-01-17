@@ -18,6 +18,7 @@ function randomizeDice() {
 function displayDice() {
     // debugger;
     var dice = randomizeDice();
+    movePlayer(dice);
     $('#diceImg').empty();
 
     for (var diceValue of dice) {
