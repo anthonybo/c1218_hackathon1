@@ -1,4 +1,4 @@
-Link to Figma Wire Frame (EJ):
+Link to Figma Wire Frame:
 https://www.figma.com/file/SbR3y82WQ1lacJ47AQAvQNFR/Untitled?node-id=0%3A1
 
 Link to Spreadsheet with features for board and order rankings:

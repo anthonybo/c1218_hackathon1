@@ -1,12 +1,12 @@
 var currentPlayers = [];
 var capMoney = 1000;
-var capProperties = ['Baltic', 'Boardwalk', 'Park Place'];
+var capProperties = [];
 var ironManMoney = 1000;
-var ironManProperties = ['Indian Ave', 'Connecticut Ave'];
+var ironManProperties = [];
 var hulkMoney = 1000;
-var hulkProperties = ['Water Works', 'Electric Company'];
+var hulkProperties = [];
 var thorMoney = 1000;
-var thorProperties = ['Reading Raildroad'];
+var thorProperties = [];
 
 
 $(document).ready(function() {
