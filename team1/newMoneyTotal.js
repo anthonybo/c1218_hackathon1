@@ -3,10 +3,12 @@ var player1Total = 1500;
 var player2Total = 1500;
 var player3Total = 1500;
 var player4Total = 1500;
+
 var player1 = 'Thor';
 var player2 = 'Hulk';
 var player3 = 'Captain America';
 var player4 = 'Iron Man';
+
 var propertyValues = {
     'Mediterranean Avenue': 60,
     'Baltic Avenue': 60,
@@ -129,6 +131,16 @@ function gainRailroadMoney(player, playerTotal){
 function incomeTax(player, playerTotal){
     var landOnIncomeTax = true;
     if (landOnIncomeTax === true){
+        player1Total = player1Total - 200;
+    } else {
+        player1Total = player1Total - 0;
+    }
+    console.log(player1, player1Total);
+}
+
+function luxuryTax(player, playerTotal){
+    var landOnLuxuryTax = true;
+    if (landOnLuxuryTax === true){
         player1Total = player1Total - 200;
     } else {
         player1Total = player1Total - 0;
