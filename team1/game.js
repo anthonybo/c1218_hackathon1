@@ -1,17 +1,19 @@
 var currentPlayers = [];
-var capMoney = 1000;
-var capProperties = ['Baltic', 'Boardwalk', 'Park Place'];
-var ironManMoney = 1000;
-var ironManProperties = ['Indian Ave', 'Connecticut Ave'];
-var hulkMoney = 1000;
-var hulkProperties = ['Water Works', 'Electric Company'];
-var thorMoney = 1000;
-var thorProperties = ['Reading Raildroad'];
+var capMoney = 1500;
+var capProperties = [];
+var ironManMoney = 1500;
+var ironManProperties = [];
+var hulkMoney = 1500;
+var hulkProperties = [];
+var thorMoney = 1500;
+var thorProperties = [];
 
 
 $(document).ready(function() {
     $("#start_game").click(player_select);
     $(".modalDiv").toggleClass('hide');
+    $('.buyProperty').hide();
+
 });
 
 function player_select() {
@@ -192,8 +194,8 @@ function startGame() {
         currentPlayers.shift();
         // console.log(currentPlayers);
         // debugger;
-        console.log(currentPlayers);
-        console.log(currentPlayers[0].name );
+        // console.log(currentPlayers);
+        // console.log(currentPlayers[0].name );
         if(currentPlayers[0].name  == 'capAm') {
             $('.bounce').css('background','blue').css('color','white');
 

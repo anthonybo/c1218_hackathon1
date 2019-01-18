@@ -8,29 +8,30 @@ var player2 = 'Hulk';
 var player3 = 'Captain America';
 var player4 = 'Iron Man';
 var propertyValues = {
-    'Mediterranean Avenue': 60,
-    'Baltic Avenue': 60,
-    'Oriental Avenue': 100,
-    'Vermont Avenue': 100,
-    'Connecticut Avenue': 120,
-    'St. Charles': 140,
-    'State Avenue': 140,
-    'Virginia Avenue': 160,
-    'St. James Place': 180,
-    'Tenesee Avenue': 180,
-    'New York Avenue': 200,
-    'Kentucky Avenue': 220,
-    'Indiana Avenue': 220,
-    'Illinoise Avenue': 240,
-    'Atlantic Avenue': 260,
-    'Ventnor Avenue': 260,
-    'Marvin Gardens': 280,
-    'Pacific Avenue': 300,
-    'North Carolina Avenue': 300,
-    'Pennsylvania Avenue': 320,
-    'Park Place': 350,
-    'Boardwalk': 400
-}
+    '1': 60,
+    '3': 60,
+    '6': 100,
+    '8': 100,
+    '9': 120,
+    '11': 140,
+    '12': 140,
+    '13': 160,
+    '15': 180,
+    '17': 180,
+    '18': 200,
+    '20': 220,
+    '22': 220,
+    '23': 240,
+    '25': 260,
+    '26': 260,
+    '27': 280,
+    '29': 300,
+    '30': 300,
+    '32': 320,
+    '35': 350,
+    '37': 400
+};
+
 function passGo(player, playerTotal) {
     player1Total= player1Total + 200;
     console.log(player1, player1Total);
