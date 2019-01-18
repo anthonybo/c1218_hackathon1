@@ -422,6 +422,36 @@ body {
     border: 3px solid black;
 }
 
+.buyProperty{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 25%;
+    width: 500px;
+    /*color: darkblue;*/
+    /*font-size: 25px;*/
+    font-weight: bold;
+    background-color: dimgrey;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.buyProperty h1 {
+    color: darkblue;
+}
+
+.buyProperty p {
+    color: whitesmoke;
+}
+
+#buyPropertyPlayer {
+    /*color: red;*/
+    /*font-weight: bold;*/
+    /*text-shadow: 2px 2px red;*/
+}
+
 .hide{
     display:none;
 }
