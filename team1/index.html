@@ -1,1 +1,119 @@
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Marvel Monopoy</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="dice.js" defer></script>
+    <script type="text/javascript" src="game.js" defer></script>
+    <script type="text/javascript" src="movePlayer.js" defer></script>
+    <script type="text/javascript" src="newMoneyTotal.js" defer></script>
+    <script type="text/javascript" src="buyProperty.js" defer></script>
+
+
+</head>
+
+<body>
+<div class="gameBoard">
+
+    <div class ="topCont" class="topRow">
+        <div data-position="19" class="freeParking"></div>
+        <div data-position="20" class="red1"></div>
+        <div data-position="21" class="chanceComm"></div>
+        <div data-position="22" class="red2"></div>
+        <div data-position="23" class="red3"></div>
+        <div data-position="24" class="train1"></div>
+        <div data-position="25" class="yellow1"></div>
+        <div data-position="26" class="yellow2"></div>
+        <div class="water_works"></div>
+        <div data-position="27" class="yellow3"></div>
+        <div data-position="28" class="goJail"></div>
+    </div>
+
+
+    <div class="innerBoard">
+    <div class ="leftColumn" class="leftCol">
+        <div data-position="18" class="orange1"></div>
+        <div data-position="17" class="orange2"></div>
+        <div data-position="16" class="chestComm2"></div>
+        <div data-position="15" class="orange3"></div>
+        <div data-position="14" class="train4"></div>
+        <div data-position="13" class="pink1"></div>
+        <div data-position="12" class="pink2"></div>
+        <div class="electric_company"></div>
+        <div data-position="11" class="pink3"></div>
+    </div>
+        <div class="middle">
+            <!--<div class="chance">Chance</div>-->
+            <!--<div class="community">Community Chest</div>-->
+            <div class="start">
+                <button id="start_game">Start Game</button>
+            </div>
+            <div id="dice">
+              <div id="diceImg"></div>
+                <button id="diceButton" class="bounce">Roll</button>
+                <span id="diceText"></span>
+            </div>
+        </div>
+
+    <div class ="rightColumn" class="rightCol">
+        <div data-position="29" class="green1"></div>
+        <div data-position="30" class="green2"></div>
+        <div data-position="31" class="chestComm1"></div>
+        <div data-position="32" class="green3"></div>
+        <div data-position="33" class="train3"></div>
+        <div data-position="34" class="chanceComm1"></div>
+        <div data-position="35" class="navy1"></div>
+        <div data-position="36" class="luxTax"></div>
+        <div data-position="37" class="navy2"></div>
+    </div>
+
+
+
+    <div class ="bottomCont" class="bottomRow">
+        <div data-position="0" class="go"></div>
+        <div data-position="1" class="purple1"></div>
+        <div data-position="2" class="chestComm"></div>
+        <div data-position="3" class="purple2"></div>
+        <div data-position="4" class="tax"></div>
+        <div data-position="5" class="train2"></div>
+        <div data-position="6" class="lightBlue1"></div>
+        <div data-position="7" class="chanceComm"></div>
+        <div data-position="8" class="lightBlue2"></div>
+        <div data-position="9" class="lightBlue3"></div>
+        <div data-position="10" class="jail"></div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+<div class="modalDiv">
+    <h1>Property List</h1>
+    <div id="propertyList" class="property_list"></div>
+</div>
+
+
+<div class="buyProperty">
+    <h1>Property Available</h1>
+    <div id="propertyName"></div>
+    <p><span id="buyPropertyPlayer"></span>Would you like to purchase this property?</p>
+    <button id="buyYes">YES</button>
+    <button id="buyNo">NO</button>
+
+</div>
+  
+</div>
+<div id="player_area"></div>
+
+</body>
+</html>
