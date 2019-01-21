@@ -12,7 +12,9 @@ var thorProperties = ['Reading Raildroad'];
 $(document).ready(function() {
     $("#start_game").click(player_select);
     $(".modalDiv").toggleClass('hide');
+
 });
+
 
 function player_select() {
     var playerDiv = $('<div>').attr('id', 'players').text('Player Select');
@@ -159,15 +161,10 @@ function thorPropList (){
     $('#propertyList').empty();
     $('#propertyList').text(thorProperties);
 }
-//
-// function showDeed(boardpiece){
-//         //on mouse over, show deed related to board piece
-//         boardpiece.src = "MyPicture2.jpg";
-//     }
-//     function MouseOut(MyImage) {
-//         MyImage.src = "MyPicture1.jpg";
-//     }
-// }
+
+function toggleMute(){
+    $("#audio_player").prop("muted",!$("#audio_player").prop("muted"));
+}
 
 function startGame() {
     // console.log('In StartGame..');

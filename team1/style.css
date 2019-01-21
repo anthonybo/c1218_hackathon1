@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/avengers_infinity_war_international_poster-1280x960.jpg");
+    background-image: url("images/avengersboard2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -17,237 +17,193 @@ body {
 }
 .green1 {
     background: url("Deeds/BoardG_Pacifc1.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .green2 {
     background: url("Deeds/BoardG_NorthCa1.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .green3 {
     background: url("Deeds/BoardG_Penn1.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .green1:hover {
     background: url("Deeds/GREEN_Pacific_ave.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    right: 150px;
-    height: 650px;
-    width: 275px;
+    right: 62px;
+    height: 1350px;
+    width: 225px;
     display: block;
     z-index: 999;
 }
 .green2:hover {
     background: url("Deeds/GREEN_North_carolina.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    right: 150px;
-    height: 650px;
-    width: 275px;
+    right: 62px;
+    height: 1350px;
+    width: 225px;
     display: block;
     z-index: 999;
 }
 .green3:hover {
     background: url("Deeds/GREEN_Pennsylvania.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    right: 150px;
-    height: 650px;
-    width: 275px;
+    right: 62px;
+    height: 1350px;
+    width: 225px;
     display: block;
     z-index: 999;
 }
 .navy1 {
     background: url("Deeds/BoardB_ParkPlace.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .navy2 {
     background: url("Deeds/BoardB_Boardwalk.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .navy1:hover {
     background: url("Deeds/BLUE_Park_place.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position:relative;
-    right: 150px;
-    height: 650px;
-    width: 275px;
+    right: 62px;
+    height: 1350px;
+    width: 225px;
     display: block;
     z-index: 999;
 }
 .navy2:hover {
     background: url("Deeds/BLUE_Boardwalk.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    right: 150px;
-    height: 650px;
-    width: 275px;
+    right: 62px;
+    height: 1350px;
+    width: 225px;
     display: block;
     z-index: 999;
 }
 
 .yellow1 {
     background: url("Deeds/BoardY_Atlantic.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .yellow2 {
     background: url("Deeds/BoardY_Ventnor.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .yellow3 {
     background: url("Deeds/BoardY_MarvinG.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .yellow1:hover {
     background: url("Deeds/Yellow_Atlantic_ave.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position:relative;
-    top:25px;
-    right:35px;
-    height: 500px;
-    width: 475px;
+    height: 350px;
+    width: 400px;
     display:block;
     z-index:999;
 }
 .yellow2:hover {
     background: url("Deeds/YELLOW_Ventor_ave.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position:relative;
-    top:25px;
-    right:35px;
-    height: 500px;
-    width: 475px;
+    height: 350px;
+    width: 400px;
     display:block;
     z-index:999;
 }
 .yellow3:hover{
     background: url("Deeds/YELLOW_Marvingardens.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position:relative;
-    top:25px;
-    right:35px;
-    height: 500px;
-    width: 475px;
+    height: 350px;
+    width: 400px;
     display:block;
     z-index:999;
 }
 
 .red1 {
     background: url("Deeds/BoardR_Kentucky.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .red2 {
     background: url("Deeds/BoardR_Indiana.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .red3 {
     background: url("Deeds/BoardR_Illinois.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .red1:hover{
-    background: url("Deeds/RED_Indiana_ave.jpg") no-repeat;
-    background-repeat: no-repeat;
+    background: url("Deeds/RED_kentucky_ave.jpg") no-repeat;
     background-size: 100% 100%;
-    position:relative;
-    top:25px;
-    left:35px;
-    height: 500px;
-    width: 475px;
+    height: 350px;
+    width: 400px;
     display:block;
     z-index:999;
 }
 .red2:hover{
     background: url("Deeds/RED_Indiana_ave.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position:relative;
-    top:25px;
-    left:35px;
-    height: 500px;
-    width: 475px;
+    height: 350px;
+    width: 400px;
     display:block;
     z-index:999;
 }
 .red3:hover{
     background: url("Deeds/RED_illionis_ave.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position:relative;
-    top:25px;
-    left:35px;
-    height: 500px;
-    width: 475px;
+    height: 350px;
+    width: 400px;
     display:block;
     z-index:999;
 }
 
 .orange1 {
     background: url("Deeds/BoardO_NewYork.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .orange2 {
     background: url("Deeds/BoardO_tenn1.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .orange3 {
     background: url("Deeds/BoardO_StJames1.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .orange1:hover {
     background: url("Deeds/ORANGE_New_York.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    left: 50px;
-    height: 650px;
-    width: 275px;
+    height: 1350px;
+    width: 225px;
     display: block;
     z-index: 999;
 }
 .orange2:hover {
     background: url("Deeds/ORANGE_Tennessee.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    left: 50px;
-    height: 650px;
-    width: 275px;
+    height: 1350px;
+    width: 225px;
     display: block;
     z-index: 999;
 }
 .orange3:hover {
     background: url("Deeds/ORANGE_St_James_pl.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    left: 50px;
-    height: 650px;
-    width: 275px;
+    height: 1350px;
+    width: 225px;
     display: block;
     z-index: 999;
 }
@@ -255,273 +211,226 @@ body {
 
 .pink1 {
     background: url("Deeds/BoardPI_Virginia1.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .pink2 {
     background: url("Deeds/BoardPI_States1.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .pink3 {
     background: url("Deeds/BoardPI_Stcharles1.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .pink1:hover {
     background: url("Deeds/PINK_Virginia.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    left: 50px;
-    height: 650px;
-    width: 275px;
+    height: 1350px;
+    width: 225px;
     display: block;
     z-index: 999;
 }
 .pink2:hover {
     background: url("Deeds/PINK_State_ave.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    left: 50px;
-    height: 650px;
-    width: 275px;
+    height: 1350px;
+    width: 225px;
     display: block;
     z-index: 999;
 }
 .pink3:hover {
     background: url("Deeds/PINK_St_Charles_place.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    left: 50px;
-    height: 650px;
-    width: 275px;
+    height: 1350px;
+    width: 225px;
     display: block;
     z-index: 999;
 }
 
 .purple1 {
     background: url("Deeds/BoardPU_Mediterranean.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .purple2 {
     background: url("Deeds/BoardPU_Baltic.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .purple1:hover {
     background: url("Deeds/PURPLE_Mediterranean_ave.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position:relative;
-    bottom:400px;
-    right:35px;
-    height: 500px;
-    width: 475px;
+    bottom: 228px;
+    height: 350px;
+    width: 400px;
     display:block;
     z-index:999;
 }
 .purple2:hover {
     background: url("Deeds/PURPLE_Baltic_ave.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position:relative;
-    bottom:400px;
-    right:35px;
-    height: 500px;
-    width: 475px;
+    bottom: 228px;
+    height: 350px;
+    width: 400px;
     display:block;
     z-index:999;
 }
 .lightBlue1 {
     background: url("Deeds/BoardLB_Oriental.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .lightBlue2 {
     background: url("Deeds/BoardLB_Vermont.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .lightBlue3 {
     background: url("Deeds/BoardLB_Connecticut.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .lightBlue1:hover{
     background: url("Deeds/LBLUE_Oriental_ave.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position:relative;
-    bottom:400px;
-    left:35px;
-    height: 500px;
-    width: 475px;
+    bottom: 228px;
+    height: 350px;
+    width: 400px;
     display:block;
     z-index:999;
 }
 .lightBlue2:hover{
     background: url("Deeds/LBLUE_Vermont_ave.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position:relative;
-    bottom:400px;
-    left:35px;
-    height: 500px;
-    width: 475px;
+    bottom: 228px;
+    height: 350px;
+    width: 400px;
     display:block;
     z-index:999;
 }
 .lightBlue3:hover {
     background: url("Deeds/LBLUE_Connecticut.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position:relative;
-    bottom:400px;
-    left:35px;
-    height: 500px;
-    width: 475px;
+    bottom: 228px;
+    height: 350px;
+    width: 400px;
     display:block;
     z-index:999;
 }
 .luxTax{
     background: url("Deeds/SP_Luxury_tax1.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .tax{
     background: url("Deeds/SP_Income_tax.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .chanceComm{
      background: url("Deeds/SP_Chance.jpg") no-repeat;
-     background-repeat: no-repeat;
      background-size: 100% 100%;
  }
 .chanceComm1{
     background: url("Deeds/SP_Chance1.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .chestComm2{
     background: url("Deeds/SP_Community_chest2.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .chestComm1 {
     background: url("Deeds/SP_Community_chest1.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .chestComm {
     background: url("Deeds/SP_Community_chest.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .train1 {
     background: url("Deeds/BoardRR_BnO.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .train1:hover{
     background: url("Deeds/RR_BnO_railroad.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position:relative;
-    top:25px;
-    height: 500px;
-    width: 475px;
+    height: 350px;
+    width: 400px;
     display:block;
     z-index:999;
 }
-.water_works{
-    background: url("Deeds/Board_WW1.jpg") no-repeat;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.water_works:hover{
-    background: url("Deeds/UTL_Water_works.jpg") no-repeat;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position:relative;
-    top:25px;
-    right:35px;
-    height: 500px;
-    width: 475px;
-    display:block;
-    z-index:999;
-}
-.electric_company{
-    background: url("Deeds/Board_EC.jpg") no-repeat;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-.electric_company:hover {
-    background: url("Deeds/UTL_Electric_company.jpg") no-repeat;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative;
-    left: 50px;
-    height: 650px;
-    width: 275px;
-    display: block;
-    z-index: 999;
-}
-
 .train2 {
     background: url("Deeds/BoardRR_RR.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .train2:hover{
     background: url("Deeds/RR_Reading_railroad.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position:relative;
-    bottom:400px;
-    height: 500px;
-    width: 475px;
+    bottom: 228px;
+    height: 350px;
+    width: 400px;
     display:block;
     z-index:999;
 }
 .train3{
     background: url("Deeds/BoardRR_Shortline.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .train3:hover{
     background: url("Deeds/RR_Shortline.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    right: 150px;
-    height: 650px;
-    width: 275px;
+    right: 62px;
+    height: 1350px;
+    width: 225px;
     display: block;
     z-index: 999;
 }
 .train4{
     background: url("Deeds/BoardRR_Penn1.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .train4:hover{
     background: url("Deeds/RR_Pennsylvania.jpg") no-repeat;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-    left: 50px;
-    height: 650px;
-    width: 275px;
+    height: 1350px;
+    width: 225px;
     display: block;
     z-index: 999;
 }
+.water_works{
+    background: url("Deeds/Board_WW1.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.water_works:hover{
+    background: url("Deeds/UTL_Water_works.jpg") no-repeat;
+    background-size: 100% 100%;
+    position:relative;
+    height: 350px;
+    width: 400px;
+    display:block;
+    z-index:999;
+}
+.electric_company{
+    background: url("Deeds/Board_EC.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.electric_company:hover {
+    background: url("Deeds/UTL_Electric_company.jpg") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 1350px;
+    width: 225px;
+    display: block;
+    z-index: 999;
+}
+
+
 
 .goJail{
     background-image: url("Deeds/SP_Go_to_jail.jpg");
@@ -703,33 +612,28 @@ body {
     font-size: 15px;
 }
 
-#ironManAm {
-    border: 4px solid gold;
+.ironManAm {
+    border: 4px solid red;
     color: red;
     font-weight: bold;
-    border-radius: 10px;
 }
 
-#capAm {
-    border: 4px solid grey;
+.capAm {
+    border: 4px solid blue;
     color: red;
     font-weight: bold;
-    border-radius: 10px;
 }
 
-#thorAm {
-    border: 4px solid yellow;
+.thorAm {
+    border: 4px solid Grey;
     color: red;
     font-weight: bold;
-    border-radius: 10px;
 }
 
-#hulkAm {
-    border: 4px solid purple;
-    font-size: 28px;
+.hulkAm {
+    border: 4px solid green;
     color: red;
     font-weight: bold;
-    border-radius: 10px;
 }
 
 #player_area{
@@ -765,4 +669,15 @@ body {
 
 .start {
     /*margin-bottom: 20px;*/
+}
+#audio{
+    background-image: url("images/Awesome_Mix_Vol._1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: -155px;
+    border-radius: 5px;
+    cursor: pointer;
 }

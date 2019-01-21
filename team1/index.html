@@ -32,75 +32,71 @@
 
 
     <div class="innerBoard">
-    <div class ="leftColumn" class="leftCol">
-        <div data-position="18" class="orange1"></div>
-        <div data-position="17" class="orange2"></div>
-        <div data-position="16" class="chestComm2"></div>
-        <div data-position="15" class="orange3"></div>
-        <div data-position="14" class="train4"></div>
-        <div data-position="13" class="pink1"></div>
-        <div data-position="12" class="pink2"></div>
-        <div class="electric_company"></div>
-        <div data-position="11" class="pink3"></div>
-    </div>
-        <div class="middle">
-            <!--<div class="chance">Chance</div>-->
-            <!--<div class="community">Community Chest</div>-->
-            <div class="start">
-                <button id="start_game">Start Game</button>
+        <div class ="leftColumn" class="leftCol">
+            <div data-position="18" class="orange1"></div>
+            <div data-position="17" class="orange2"></div>
+            <div data-position="16" class="chestComm2"></div>
+            <div data-position="15" class="orange3"></div>
+            <div data-position="14" class="train4"></div>
+            <div data-position="13" class="pink1"></div>
+            <div data-position="12" class="pink2"></div>
+            <div class="electric_company"></div>
+            <div data-position="11" class="pink3"></div>
+        </div>
+            <div class="middle">
+                <!--<div class="chance">Chance</div>-->
+                <!--<div class="community">Community Chest</div>-->
+                <div class="start">
+                    <button id="start_game">Start Game</button>
+                </div>
+                <div id="dice">
+                  <div id="diceImg"></div>
+                    <button id="diceButton" class="bounce">Roll</button>
+                    <span id="diceText"></span>
+                </div>
             </div>
-            <div id="dice">
-              <div id="diceImg"></div>
-                <button id="diceButton" class="bounce">Roll</button>
-                <span id="diceText"></span>
-            </div>
+
+        <div class ="rightColumn" class="rightCol">
+            <div data-position="29" class="green1"></div>
+            <div data-position="30" class="green2"></div>
+            <div data-position="31" class="chestComm1"></div>
+            <div data-position="32" class="green3"></div>
+            <div data-position="33" class="train3"></div>
+            <div data-position="34" class="chanceComm1"></div>
+            <div data-position="35" class="navy1"></div>
+            <div data-position="36" class="luxTax"></div>
+            <div data-position="37" class="navy2"></div>
         </div>
 
-    <div class ="rightColumn" class="rightCol">
-        <div data-position="29" class="green1"></div>
-        <div data-position="30" class="green2"></div>
-        <div data-position="31" class="chestComm1"></div>
-        <div data-position="32" class="green3"></div>
-        <div data-position="33" class="train3"></div>
-        <div data-position="34" class="chanceComm1"></div>
-        <div data-position="35" class="navy1"></div>
-        <div data-position="36" class="luxTax"></div>
-        <div data-position="37" class="navy2"></div>
-    </div>
 
 
-
-    <div class ="bottomCont" class="bottomRow">
-        <div data-position="0" class="go"></div>
-        <div data-position="1" class="purple1"></div>
-        <div data-position="2" class="chestComm"></div>
-        <div data-position="3" class="purple2"></div>
-        <div data-position="4" class="tax"></div>
-        <div data-position="5" class="train2"></div>
-        <div data-position="6" class="lightBlue1"></div>
-        <div data-position="7" class="chanceComm"></div>
-        <div data-position="8" class="lightBlue2"></div>
-        <div data-position="9" class="lightBlue3"></div>
-        <div data-position="10" class="jail"></div>
-    </div>
+        <div class ="bottomCont" class="bottomRow">
+            <div data-position="0" class="go"></div>
+            <div data-position="1" class="purple1"></div>
+            <div data-position="2" class="chestComm"></div>
+            <div data-position="3" class="purple2"></div>
+            <div data-position="4" class="tax"></div>
+            <div data-position="5" class="train2"></div>
+            <div data-position="6" class="lightBlue1"></div>
+            <div data-position="7" class="chanceComm"></div>
+            <div data-position="8" class="lightBlue2"></div>
+            <div data-position="9" class="lightBlue3"></div>
+            <div data-position="10" class="jail"></div>
+        </div>
 
     </div>
 
 
+        <div class="modalDiv">
+            <h1>Property List</h1>
+            <div id="propertyList" class="property_list"></div>
+        </div>
 
-
-
-
-
-
-
-<div class="modalDiv">
-    <h1>Property List</h1>
-    <div id="propertyList" class="property_list"></div>
-</div>
-
-</div>
-<div id="player_area"></div>
-
+    </div>
+    <div id="player_area">
+        <div id="audio" onclick="toggleMute()"><audio id="audio_player" loop="loop" autoplay="true">
+            <source src="https://cf-media.sndcdn.com/XVHUKOQHyGzs.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vWFZIVUtPUUh5R3pzLjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE1NDgwMzcxMTR9fX1dfQ__&amp;Signature=DuzedikobEKW9pxWeR1aPImppDXXekeDLoN2Z19Eyzy4b99xKJolISAncKAihI~Pl-oB4Z~tdOw0OHP5NNiye3spW2jlfaw0oADt1jSjUc8OoKYmmshX0T4QYsAQim7azSFcyGT53sd4eRD3s4eG31jHBFJVJ8dA9Fk9krWfe4WWu7H460e3f8Bqcpv5LBtHzkIO-V0tV29iPJRyYPAcTuyCWhtKBCy5~iBVHyZRh1dA18vAa1352Un557b5hW0HXpifQdtolv5Z8VLss2a3aISx~X1HyfaMwwPSgF4Ey8D8z80BMa0hLGcz1zoXWmom1nHDIDIQzQ5zmwi0UHU0Ug__&amp;Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ" type="audio/mpeg">
+        </audio></div>
+    </div>
 </body>
 </html>
