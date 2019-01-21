@@ -3,8 +3,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
     margin: 0;
+    overflow: hidden;
     /*font-size: 0;*/
 }
 
@@ -251,7 +251,6 @@ body {
     display: block;
     z-index: 999;
 }
-
 
 .pink1 {
     background: url("Deeds/BoardPI_Virginia1.jpg") no-repeat;
@@ -546,10 +545,6 @@ body {
     background-size: 100% 100%;
 }
 
-
-
-
-
 /*.tax {*/
     /*background-image: url("images/income.jpg");*/
     /*max-width: 100%;*/
@@ -590,8 +585,7 @@ body {
 .bottomCont > div {
     width: 15%;
     margin: 1px;
-
-
+    position: relative;
 }
 
 .topCont {
@@ -608,7 +602,7 @@ body {
 .topCont > div {
     width: 15%;
     margin: 1px;
-
+    position: relative;
 }
 
 .leftColumn {
@@ -627,6 +621,7 @@ body {
     margin: 1px;
     width: 100%;
     height: 25%;
+    position: relative;
 
 }
 .rightColumn {
@@ -644,21 +639,19 @@ body {
 
 }
 
-
-
-
 .rightColumn > div {
 
     margin: 1px;
     width: 100%;
     height: 25%;
+    position: relative;
 }
 
 .middle {
     position: relative;
     width: 15%;
     top: 50%;
-    left: 44%;
+    left: 46%;
     display: inline-block;
 
 }
@@ -740,14 +733,14 @@ body {
 .modalDiv{
     position: fixed;
     top: 50%;
-    left: 50%;
+    left: 43%;
     transform: translate(-50%, -50%);
-    height: 500px;
-    width: 500px;
+    height: 55vmin;
+    width: 45vmin;
     color: lightgrey;
-    font-size: 25px;
+    font-size: 3vmin;
     font-weight: bold;
-    background-color: darkred;
+    /*background-color: darkred;*/
     text-align: center;
     border-radius: 10px;
     border: 3px solid black;
@@ -755,11 +748,11 @@ body {
 
 .buyProperty{
     position: fixed;
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 43%;
     transform: translate(-50%, -50%);
-    height: 25%;
-    width: 500px;
+    /*height: 25%;*/
+    /*width: 500px;*/
     /*color: darkblue;*/
     /*font-size: 25px;*/
     font-weight: bold;
@@ -767,10 +760,11 @@ body {
     text-align: center;
     border-radius: 10px;
     border: 3px solid black;
+    padding: 1%;
 }
 
 .buyProperty h1 {
-    color: darkblue;
+    color: #ff5555;
 }
 
 .buyProperty p {
@@ -800,6 +794,11 @@ body {
     font-weight: bold;
     color: whitesmoke;
     text-shadow: 1px 1px black;
+    border: 4px solid black;
+}
+
+.start button:hover {
+    background-color: orangered;
 }
 
 @keyframes wobble {
@@ -827,7 +826,7 @@ body {
 
 #players div {
     color: transparent;
-    height: 100px;
+    height: 15vh;
 }
 
 #cap {
@@ -835,12 +834,14 @@ body {
     background-size: contain;
     border: 1px solid white;
     text-align: center;
-    line-height: 90px;
+    /*line-height: 90px;*/
+    line-height: 26vh;
 }
 
 #cap:hover {
     color: white;
     text-shadow: 1px 1px black;
+    background-color: #5265ef66;;
 }
 
 #iron_man {
@@ -848,12 +849,14 @@ body {
     background-size: contain;
     border: 1px solid white;
     text-align: center;
-    line-height: 90px;
+    /*line-height: 90px;*/
+    line-height: 26vh;
 }
 
 #iron_man:hover {
     color: white;
     text-shadow: 1px 1px black;
+    background-color: #b2222261;
 }
 
 #hulk {
@@ -861,12 +864,14 @@ body {
     background-size: contain;
     border: 1px solid white;
     text-align: center;
-    line-height: 90px;
+    /*line-height: 90px;*/
+    line-height: 26vh;
 }
 
 #hulk:hover {
     color: white;
     text-shadow: 1px 1px black;
+    background-color: #7fff0047;
 }
 
 #thor {
@@ -874,18 +879,20 @@ body {
     background-size: contain;
     border: 1px solid white;
     text-align: center;
-    line-height: 90px;
+    /*line-height: 90px;*/
+    line-height: 26vh;
 }
 
 #thor:hover {
     color: white;
     text-shadow: 1px 1px black;
+    background-color: #d3d3d37a;
 }
 
 div#selectPlayerText {
     color: red;
     height: 27px;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     text-align: center;
     text-shadow: 1px 1px #ab7c38;
 }
@@ -907,4 +914,187 @@ div#selectPlayerText {
     background: #4CAF50;
     border-color: #0c0c0c !important;
     transition: all 0.4s ease 0s;
+}
+
+#exitModal {
+    cursor: pointer;
+    /*text-align: right;*/
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 30px;
+    width: 30px;
+}
+
+#exitModal:hover {
+    background-color: #b7b1b1;
+    border-radius: 7%;
+    color: black;
+}
+
+#propertyName {
+    color: #d680bf;
+}
+
+#buyYes {
+    background-color: forestgreen;
+    color: black;
+    font-weight: bold;
+    font-size: 3vmin;
+    border-radius: 7%;
+    cursor: pointer;
+    border: 4px solid black;
+}
+#buyYes:hover {
+    background-color: chartreuse;
+    border: 2px dashed red;
+}
+
+#buyNo {
+    background-color: firebrick;
+    color: black;
+    font-weight: bold;
+    font-size: 3vmin;
+    border-radius: 7%;
+    cursor: pointer;
+    border: 4px solid black;
+}
+
+#buyNo:hover {
+    background-color: orangered;
+    border: 2px dashed yellow;
+}
+
+#purchaseCap {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border: 2px solid black;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+#purchaseIM {
+    width: 10px;
+    height: 10px;
+    background-color: #ff0f1d;
+    border: 2px solid black;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+#purchaseHulk {
+    width: 10px;
+    height: 10px;
+    background-color: #4aff30;
+    border: 2px solid black;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+#purchaseThor {
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    border: 2px solid black;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+#property {
+    border: 2px solid black;
+    border-radius: 7%;
+    text-shadow: 1px 1px black;
+    color: black;
+    font-size: 2vmin;
+}
+
+#property:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+#diceButton {
+    text-shadow: 2px 2px black;
+}
+
+.payRent {
+    position: fixed;
+    top: 30%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    /*height: 25%;*/
+    /*width: 500px;*/
+    /*color: darkblue;*/
+    /*font-size: 25px;*/
+    font-weight: bold;
+    background-color: dimgrey;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 1%;
+}
+
+#exitModalRent {
+    cursor: pointer;
+    /*text-align: right;*/
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 20px;
+    width: 20px;
+}
+
+#exitModalRent:hover {
+    background-color: #b7b1b1;
+    border-radius: 7%;
+    color: black;
+}
+
+.payRent h1 {
+    color: firebrick;
+    text-shadow: 1px 1px black;
+}
+
+.playerBroke {
+    position: fixed;
+    top: 30%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    /*height: 25%;*/
+    /*width: 500px;*/
+    /*color: darkblue;*/
+    /*font-size: 25px;*/
+    font-weight: bold;
+    background-color: dimgrey;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 1%;
+}
+
+#exitModalBroke {
+    cursor: pointer;
+    /*text-align: right;*/
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 20px;
+    width: 20px;
+}
+
+#exitModalBroke:hover {
+    background-color: #b7b1b1;
+    border-radius: 7%;
+    color: black;
+}
+
+.playerBroke h1 {
+    color: firebrick;
+    text-shadow: 1px 1px black;
 }
