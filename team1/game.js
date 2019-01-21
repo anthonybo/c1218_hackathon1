@@ -9,11 +9,27 @@ var thorMoney = 1500;
 var thorProperties = [];
 
 
-$(document).ready(function() {
-    $("#start_game").click(player_select);
+$(document).ready(initialize);
+
+function initialize() {
     $(".modalDiv").toggleClass('hide');
     $('.buyProperty').hide();
-});
+    $('.payRent').hide();
+    $('.playerBroke').hide();
+    clickHandlers();
+}
+
+function clickHandlers() {
+    $('#exitModal').click(closeModal);
+    $('#exitModalRent').click(closeModalRent);
+    $('#exitModalBroke').click(closeModalBroke);
+    $("#start_game").click(player_select);
+
+
+    // $('.modalDiv').click(function(){
+    //     $('.modalDiv').toggleClass('hide');
+    // });
+}
 
 function player_select() {
     var playerDiv = $('<div>').attr('id', 'players');
@@ -51,9 +67,9 @@ function createCap() {
         'text-align': 'center',
         'padding': '10px',
         'font-weight': 'bold',
-        'font-size': '24px',
-        'height': '125px',
-        'width': '200px',
+        'font-size': '3vmin',
+        'height': '15vh',
+        'width': '100%',
         'position': 'relative'
     });
     var money = $("<div>").text('Money: $'+capMoney).css({
@@ -79,6 +95,7 @@ function capPropList (){
         $('.modalDiv').toggleClass('hide');
         $('#propertyList').empty();
         $('#propertyList').text(capProperties);
+        $('.modalDiv').css('background-color','navy');
 }
 
 function createIm(){
@@ -89,9 +106,9 @@ function createIm(){
         'text-align': 'center',
         'padding': '10px',
         'font-weight': 'bold',
-        'font-size': '24px',
-        'height': '125px',
-        'width': '200px',
+        'font-size': '3vmin',
+        'height': '15vh',
+        'width': '100%',
         'position': 'relative'
     });
     var money = $("<div>").text('Money: $'+ironManMoney).css({
@@ -115,6 +132,8 @@ function imPropList (){
     $('.modalDiv').toggleClass('hide');
     $('#propertyList').empty();
     $('#propertyList').text(ironManProperties);
+    $('.modalDiv').css('background-color','firebrick');
+
 }
 
 function createHulk(){
@@ -125,9 +144,9 @@ function createHulk(){
         'text-align': 'center',
         'padding': '10px',
         'font-weight': 'bold',
-        'font-size': '24px',
-        'height': '125px',
-        'width': '200px',
+        'font-size': '3vmin',
+        'height': '15vh',
+        'width': '100%',
         'position': 'relative'
     });
     var money = $("<div>").text('Money: $'+hulkMoney).css({
@@ -152,6 +171,8 @@ function hulkPropList (){
     $('.modalDiv').toggleClass('hide');
     $('#propertyList').empty();
     $('#propertyList').text(hulkProperties);
+    $('.modalDiv').css('background-color','green');
+
 }
 
 function createThor(){
@@ -162,9 +183,9 @@ function createThor(){
         'text-align': 'center',
         'padding': '10px',
         'font-weight': 'bold',
-        'font-size': '24px',
-        'height': '125px',
-        'width': '200px',
+        'font-size': '3vmin',
+        'height': '15vh',
+        'width': '100%',
         'position': 'relative'
     });
     var money = $("<div>").text('Money: $'+thorMoney).css({
@@ -189,6 +210,8 @@ function thorPropList (){
     $('.modalDiv').toggleClass('hide');
     $('#propertyList').empty();
     $('#propertyList').text(thorProperties);
+    $('.modalDiv').css('background-color','grey');
+
 }
 //
 // function showDeed(boardpiece){
@@ -239,6 +262,7 @@ function startGame() {
         }
 
         $('#dice').show();
+        // $('#diceButton').show();
     }
 }
 
@@ -256,4 +280,18 @@ function createStartButton() {
         $('#selectPlayerText').hide();
     }
 
+}
+
+function closeModal() {
+    $('.modalDiv').toggleClass('hide');
+}
+
+function closeModalRent() {
+    $('#diceButton').show();
+    $('.payRent').hide();
+}
+
+function closeModalBroke() {
+    $('#diceButton').show();
+    $('.playerBroke').hide();
 }
