@@ -213,15 +213,10 @@ function thorPropList (){
     $('.modalDiv').css('background-color','grey');
 
 }
-//
-// function showDeed(boardpiece){
-//         //on mouse over, show deed related to board piece
-//         boardpiece.src = "MyPicture2.jpg";
-//     }
-//     function MouseOut(MyImage) {
-//         MyImage.src = "MyPicture1.jpg";
-//     }
-// }
+
+function toggleMute(){
+    $("#audio_player").prop("muted",!$("#audio_player").prop("muted"));
+}
 
 function startGame() {
     // console.log('In StartGame..');
